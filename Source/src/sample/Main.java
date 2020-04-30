@@ -565,7 +565,7 @@ public class Main extends Application
     }
     public void openHelpFile() {
         System.out.println("Opening help file");
-        String url = "help.html";
+        String url = "Source\\help\\help.html";
         File htmlFile = new File(url);
         try
         {
